@@ -27,6 +27,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
+    //    compile 'com.blankj:utilcode:1.12.5'
+//    compile 'com.github.ArchurWang:AndroidUtil:V1.2'
     compile project(':myutil')
-//    compile 'com.blankj:utilcode:1.12.5'
 }

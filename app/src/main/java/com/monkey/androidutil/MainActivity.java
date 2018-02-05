@@ -7,10 +7,9 @@ import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 
-import com.monkey.myutil.LogUtil;
+
 import com.monkey.myutil.TimeConstants;
 import com.monkey.myutil.TimeUtil;
-import com.monkey.myutil.ToastUtil;
 
 import java.util.Date;
 
