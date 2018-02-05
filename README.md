@@ -35,7 +35,8 @@ public class MyApp extends Application {
 </application>
 ```
 ## 工具类集合
-* #### LogUtil 日志工具类（可控制log输出）
+* #### LogUtil
+    * 日志工具类（可控制log输出）
 ```
         // 控制是否输出
         LogUtil.isDebug = true;
@@ -44,7 +45,8 @@ public class MyApp extends Application {
         // 自定义TAG标签
         LogUtil.e("test","hello world");
 ```
-* #### ToastUtil 吐司工具类（背景色 位置 时长 自定义布局）
+* #### ToastUtil
+    * 吐司工具类（背景色 位置 时长 自定义布局）
 ```
         // 设置吐司文字颜色
         ToastUtil.setMsgColor(Color.parseColor("#ff0000"));
@@ -68,7 +70,8 @@ public class MyApp extends Application {
 
         ToastUtil.showCustomLong(R.layout.loading);//自定义布局
 ```
-* #### TimeUtil 时间工具类
+* #### TimeUtil
+    * 时间工具类
 ```
         //string millis date 三种日期互转
         TimeUtil.string2Date("2017-01-01 12:00:00");
