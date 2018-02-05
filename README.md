@@ -104,7 +104,6 @@ public class MyApp extends Application {
         //获取指定时间与当前时间的友好时间差 今天15:32 昨天15:32
         TimeUtil.getFriendlyTimeSpanByNow("2018-01-04 00:50:00");
 
-
         // 获取当前毫秒时间戳
         TimeUtil.getNowMills();
         // 获取当前时间字符串
